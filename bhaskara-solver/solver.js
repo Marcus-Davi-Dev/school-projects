@@ -53,5 +53,5 @@ function bhaskara(a, b, c){
   results.add(numeratorPlus/denominator);
   results.add(numeratorMinus/denominator);
 
-  return results:
+  return results;
 }
