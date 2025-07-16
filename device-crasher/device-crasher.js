@@ -14,5 +14,7 @@ timedCrashBtn.addEventListener("click", function(){
   const milisseconds = parseInt(timedCrashInput.value) * 1000;
   let stop = false;
   setTimeout(()=>{stop = true}, milisseconds);
-  while(!stop){}
+  while(true){
+    if(stop) break;
+  }
 });
