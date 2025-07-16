@@ -11,7 +11,7 @@ recursionCrashBtn.addEventListener("click", function(){
 });
 
 timedCrashBtn.addEventListener("click", function(){
-  const milisseconds = parseInt(timedCrashInput) * 1000;
+  const milisseconds = parseInt(timedCrashInput.value) * 1000;
   let stop = false;
   setTimeout(()=>{stop = true}, milisseconds);
   while(!stop){}
