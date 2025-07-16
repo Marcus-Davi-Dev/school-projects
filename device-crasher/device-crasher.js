@@ -12,7 +12,7 @@ recursionCrashBtn.addEventListener("click", function(){
     }
     return fib(n - 1) + fib(n - 2);
   }
-  a(46);
+  fib(46);
 });
 
 timedCrashBtn.addEventListener("click", function(){
