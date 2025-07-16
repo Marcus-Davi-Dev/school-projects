@@ -19,7 +19,7 @@ timedCrashBtn.addEventListener("click", function(){
   const milisseconds = parseInt(timedCrashInput.value) * 1000;
   const now = Date.now();
   while(true){
-    if(now === Date.now + milisseconds){
+    if(Date.now() >= now + milisseconds){
       break;
     }
   }
