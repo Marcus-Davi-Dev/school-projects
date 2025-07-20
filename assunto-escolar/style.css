@@ -1,0 +1,23 @@
+*:not(math) {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #c4c4c4;
+    width: min-content;
+    border-radius: 4px;
+}
+
+nav ul, nav ol {
+    list-style: none;
+}
+
+nav > ul, nav > ol {
+    padding-left: 1em;
+    padding-right: 2px;
+}
