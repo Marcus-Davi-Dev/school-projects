@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-value=1.0, width=device-width">
     <title>Geometria - Polígonos</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <h1>Polígonos</h1>
-    <p>{para ser adiconado}</p>
-  </body>
+    <p>Polígonos são figuras fechadas formadas por segmentos de reta, sendo caracterizados pelos seguintes elementos:
+        ângulos, vértices, diagonais, e lados (arestas)</p>
+    <p>De acordo com o número de lados a figura é nomeada.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Número de lados</th>
+                <th>Nome</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3</td>
+                <td>Triângulo</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Quadrilátero</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Pentágono</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Hexágono</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Heptágono</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Octógono</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Eneágono</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Decágono</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Dodecágono</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Icosaedro</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Polígonos regulares</h2>
+    <p>Um polígono é chamado de regular quando possui todos os lados iguais e todos os ângulos internos possuem a mesma medida.</p>
+
+    <h2>Soma dos ângulos internos de um polígono</h2>
+    <p>
+        A soma dos ângulos internos de um triângulo é 180º.<br>
+        Em um quadrilátero formamos dois triângulos, daí, 2.180º = 360º.<br>
+        Em um Pentágono formamos três triângulos, daí, 3.180º = 540º.<br>
+        Em um Hexágono formamos quatro triângulos, daí, 4.180º = 720º.<br>
+    </p>
+
+    <p>Perceba que a difernça entre o número de lados e a quantidade de lados é sempre igual a 2.</p>
+    <p>Daí, podemos chegar na seguinte fórumla para calcular a soma dos ângulos internos de um polígono: <math><mi>Si</mi> <mo>=</mo> <mo>(</mo> <mi>n</mi> <mo>-</mo> <mn>2</mn> <mo>)</mo> <mo>×</mo> <mn>180º</mn> </math>. Onde Si é a soma dos ângulos internos e n é a quantidade de lados do polígono.</p>
+    <p>Caso queira calcular o valor de cada ângulo interno, temos: <math> <mi>ai</mi> = <mfrac> <mi>Si</mi> <mi>n</mi> </mfrac></math>. Onde ai é o valor de cada ângulo interno e n é a quantidade de lados do polígono. Esta fórmula só funciona com polígonos regulares</p>
+
+    <h2>Soma dos ângulos externos de um polígono</h2>
+    <p>A soma dos ângulos externos de qualquer polígono independente da quantidade de lados sempre será igual a 360º</p>
+
+    <h2>Número de diagonais de um polígono</h2>
+    <p>
+        <math>
+            <mi>D</mi>
+            <mo>=</mo>
+            <mfrac>
+                <mrow>
+                    <mi>n</mi>
+                    <mo>×</mo>
+                    <mo>(</mo>
+                    <mi>n</mi>
+                    <mo>-</mo>
+                    <mn>3</mn>
+                    <mo>)</mo>
+                </mrow>
+
+                <mn>2</mn>
+            </mfrac>
+        </math>
+        Onde n é o número de lados do polígono.
+    </p>
+</body>
+
 </html>
