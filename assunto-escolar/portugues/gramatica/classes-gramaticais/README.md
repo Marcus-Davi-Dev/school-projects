@@ -1,6 +1,6 @@
 # Classes gramaticais
 
-Classes gramaticais são {adicionar explicação}
+Classes gramaticais são categorias que agrupam palavras de acordo com suas funções e características em uma frase.
 
 Existem 10 delas:
 - Substantivos.<br> 
